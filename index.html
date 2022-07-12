@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <title>Code Complier</title>
+    <link rel="stylesheet" href="codemirror\lib\codemirror.css"></link>
+    <link rel="stylesheet" href="codemirror\theme\ayu-dark.css"/>
+    <link rel="stylesheet" href="styles.css"/>    
+</head>
+<body>
+    <div>
+        <h1>Code Editor</h1>
+    </div>
+    
+    <div id="base-container">
+        <div id="type-code-container"><h3>Type Your Code</h3></div>
+        <div id="lang-container">
+            <select id="languages">
+                <option value="python">Python</option>
+                <option value="javascript">Javascript</option>
+                <option value="c">C</option>
+                <option value="cpp">CPP</option>
+                <option value="java">Java</option>
+            </select>
+        </div>
+    </div>
+   <div>
+       <textarea id="code"></textarea>
+   </div>
+   <div id="output-container">
+        <textarea id="output" disabled>OUTPUT:</textarea>
+   </div>
+   <div>
+       <button id="compile">Compile</button>
+   </div>
+</body>
+<script type="text/javascript" src="codemirror\lib\codemirror.js"></script>   
+<script type="text/javascript" src="codemirror\mode\python\python.js"></script>   
+<script type="text/javascript" src="codemirror\mode\javascript\javascript.js"></script>   
+<script type="text/javascript" src="codemirror\mode\clike\clike.js"></script>  
+<script type="text/javascript" src="codemirror\addon\edit\matchbrackets.js"></script>  
+<script type="text/javascript" src="codemirror\addon\edit\closebrackets.js"></script>  
+<script src="app.js"></script>
+</html>

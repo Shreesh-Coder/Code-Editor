@@ -1,0 +1,50 @@
+#type-code-container{
+    flex-basis: auto;
+}
+
+#lang-container{
+    flex-basis: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#languages{
+    flex-basis: auto;
+}
+
+
+#base-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#output-container{
+    flex-basis: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+#output{
+     background-color: black;
+     color: white;
+     flex-grow: 1;
+     height: 100px;
+     resize: none;
+}
+
+#compile{
+    flex-basis: auto;
+    margin-top: 10px;
+    background-color: orange;
+    border: 0px;
+}
+
+body{        
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.CodeMirror {
+    font-family: Arial, monospace;
+    font-size: 24px;
+    }
